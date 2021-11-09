@@ -18,7 +18,6 @@ def test_guest_can_go_to_login_page(browser):
     login_page = LoginPage(browser, browser.current_url)
     login_page.should_be_login_page()
 
-@pytest.mark.current_task
 def test_guest_should_access_empty_basket_page_from_main_page (browser):
     page = MainPage(browser, link)
     page.open()
