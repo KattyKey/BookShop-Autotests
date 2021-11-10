@@ -2,4 +2,4 @@
 
 Запуск тестов для ревью командой:
 
-pytest -v --tb=line --language=en -m need_review`
+pytest -v --tb=line --language=en -m need_review
